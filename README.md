@@ -19,7 +19,7 @@ social_media_links = [
     "https://www.facebook.com/ThisIsAnExampleLink",
     "https://www.youtube.com/ThisIsAnExampleLink",
     "https://www.instagram.com/ThisIsAnExampleLink",
-    "https://www.github.com/jlnetosci/ssml",
+    "https://www.github.com/jlnetosci/st-social-media-links",
 ]
 
 social_media_icons = SocialMediaIcons(social_media_links)
@@ -47,7 +47,7 @@ social_media_links = [
     "https://www.facebook.com/ThisIsAnExampleLink",
     "https://www.youtube.com/ThisIsAnExampleLink",
     "https://www.instagram.com/ThisIsAnExampleLink",
-    "https://www.github.com/jlnetosci/ssml",
+    "https://www.github.com/jlnetosci/st-social-media-links",
 ]
 
 colors = ["#000000", "Brown", "SteelBlue", "Lime"]
@@ -72,7 +72,7 @@ social_media_links = [
     "https://www.facebook.com/ThisIsAnExampleLink",
     "https://www.youtube.com/ThisIsAnExampleLink",
     "https://www.instagram.com/ThisIsAnExampleLink",
-    "https://www.github.com/jlnetosci/ssml",
+    "https://www.github.com/jlnetosci/st-social-media-links",
 ]
 
 colors = ["#000000", None, "SteelBlue", None]

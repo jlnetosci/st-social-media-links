@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 import math
-import warnings
+#import warnings
 from bs4 import BeautifulSoup
 
 class SocialMediaIcons:
@@ -29,7 +29,7 @@ class SocialMediaIcons:
         if colors and len(colors) == len(self.social_media_links):
             self.colors = [color if color else self._get_default_color(link) for color, link in zip(colors, self.social_media_links)]
         else:
-            warnings.warn('The lengths of the lists <social_media_links> and <colors> do not match. Using default colors.')
+            #warnings.warn('The lengths of the lists <social_media_links> and <colors> do not match. Using default colors.')
             self.colors = [self._get_default_color(link) for link in self.social_media_links]
 
     def _get_default_color(self, link):

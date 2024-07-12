@@ -6,7 +6,7 @@ with open("README_for_pypi.md", "r", encoding="utf-8") as f:
 
 setup(
     name="st-social-media-links",
-    version="0.1.1",
+    version="0.1.3",
     description="A Python package designed to assist in displaying social media links within Streamlit apps.",
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.3] - 2024-07-12
+
+### Fixed
+
+- Fix Medium icon.
+
+## [0.1.2] - 2024-07-12 | Yanked from PyPI
+
+### Added
+- Include Medium in the platforms.
+
 ## [0.1.1] - 2024-03-31
 
 ### Changed

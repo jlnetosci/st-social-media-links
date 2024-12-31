@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.4] - 2024-12-31
+
+### Added
+- Include Buy Me a Coffee, Flickr, Ko-fi, Patreon, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, TradingView, Vimeo, and Whatsapp to the supported platforms.
+
 ## [0.1.3] - 2024-07-12
 
 ### Fixed

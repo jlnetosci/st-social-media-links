@@ -33,10 +33,10 @@ social_media_icons.render()
   
   ---
   
-  ### Customization options
-  **`SocialMediaIcons`** takes two arguments: 
+### Customization options
+**`SocialMediaIcons`** takes two arguments: 
   
-  - `social_media_links`: a list with web links. You can choose the order of the icons through the order of the web links, each icon will be displayed in its respective position. 
+- `social_media_links`: a list with web links. You can choose the order of the icons through the order of the web links, each icon will be displayed in its respective position. 
 
 - `colors`: an optional list of custom colors for the icons. If it is not given, icons show their default color. If given, it should have the same length as `social_media_links`, if it does not, all icons will show their default color. Accepted values include [HTML color names](https://www.w3schools.com/tags/ref_colornames.asp), as well as HEX color codes.
 
@@ -59,11 +59,11 @@ social_media_icons.render()
 
 <p align="center" width="100%">
   <img src="./img/colors1.png"> 
-  </p>
+</p>
   
-  ----
+----
   
-  If you do not want to customize all colors, you can use `None` at any index in `colors` and that icon will show its default color.
+If you do not want to customize all colors, you can use `None` at any index in `colors` and that icon will show its default color.
 
 ```python
 from st_social_media_links import SocialMediaIcons
@@ -87,30 +87,30 @@ social_media_icons.render()
   
   ----
   
-  **`render`** has two optional arguments:
+**`render`** has two optional arguments:
   
-  - `sidebar` 
+- `sidebar` 
 
 - `justify_content`
 
 `sidebar` is a boolean and therefore can be `True` or `False`. Its default value is `False`. It is possible to render with both options simultaneously, if you want to display the icons with social media links in both the main-page and the sidebar, i.e.:
   
-  ```python
+```python
 social_media_icons.render(sidebar=False) #will render in the main-page
 social_media_icons.render(sidebar=True) #will render in the sidebar
 ```
 
 If you want to have the icons exclusively in the sidebar, you only need to render it once: 
   
-  ```python
+```python
 social_media_icons.render(sidebar=True) #will render in the sidebar
 ```
 
 ---
   
-  `justify_content` gives some freedom regarding icon placement. In brief, it completes the [CSS `justify-content` property](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) used, and therefore may take the same options e.g. `center`, `start`, `end`, `space-between`, `space-around`, `space-evenly`, etc. Its default value is `center`. `justify_content` can have different values for separate renderings: 
+`justify_content` gives some freedom regarding icon placement. In brief, it completes the [CSS `justify-content` property](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) used, and therefore may take the same options e.g. `center`, `start`, `end`, `space-between`, `space-around`, `space-evenly`, etc. Its default value is `center`. `justify_content` can have different values for separate renderings: 
   
-  ```python
+```python
 # Rendering in the main-page with icons centered
 social_media_icons.render(sidebar=False, justify_content="center")
 
@@ -120,17 +120,15 @@ social_media_icons.render(sidebar=True, justify_content="space-evenly")
 
 ---
   
-  ## Platforms supported
+## Platforms supported
   
-  In this version, **`st-social-media-links`** supports links to: 
+In version 0.1.4, **`st-social-media-links`** supports links to: 
   
-  <p align="center" width="100%">
-  <img src="./img/platforms.png"> 
-  </p>
+Buy Me a Coffee, Discord, Facebook, Flickr, Github, Gitlab, Instagram, Ko-fi, Linkedin, Medium, Patreon, Pinterest, Reddit, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, Threads, TikTok, TradingView, Tumblr, Twitch, Twitter, Vimeo, Whatsapp, X, and Youtube.  
   
-  ## Tips
+## Tips
   
-  When paired with `st.divider()` the icon sets look very aesthetically pleasing. 
+When paired with `st.divider()` the icon sets look very aesthetically pleasing. 
 
 Even though I have not tested it much, [`add_vertical_space`](https://arnaudmiribel.github.io/streamlit-extras/extras/add_vertical_space/) might help you achieve the positioning you want for your social media icons.
 
@@ -138,4 +136,4 @@ Even though I have not tested it much, [`add_vertical_space`](https://arnaudmiri
 
 For this project, I do have to acknowledge [Font Awesome](https://fontawesome.com/) for their huge selection of icons and the ease with which they implemented. The Awesome in their name is well deserved! 
   
-Thanks to Raúl Pérula Martínez for suggesting the addition of Medium.
+Thanks to Raúl Pérula Martínez (@raulperula) for suggesting the addition of Medium. Thanks to Pedro Damasceno (@pcDamasceno) for suggesting the addition of Buy Me a Coffee, Flickr, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, TradingView, Vimeo, and Whatsapp.

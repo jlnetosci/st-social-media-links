@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.5] - 2024-04-08
+
+### Added
+
+- Include Bluesky, KNIME, "mailto:", Mastondon (mastodon.social instance), and Zenodo to as supported platforms/available icons.
+
 ## [0.1.4] - 2024-12-31
 
 ### Added

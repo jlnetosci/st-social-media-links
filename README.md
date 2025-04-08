@@ -8,7 +8,7 @@ A Python package designed to assist in displaying social media links within Stre
 
 ## Install
 ```python
-pip install st_social_media_links
+pip install st-social-media-links
 ```
 
 ## Usage
@@ -122,9 +122,9 @@ social_media_icons.render(sidebar=True, justify_content="space-evenly")
   
 ## Platforms supported
   
-In version 0.1.4, **`st-social-media-links`** supports links to: 
+In version 0.1.5, **`st-social-media-links`** supports links to: 
   
-Buy Me a Coffee, Discord, Facebook, Flickr, Github, Gitlab, Instagram, Ko-fi, Linkedin, Medium, Patreon, Pinterest, Reddit, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, Threads, TikTok, TradingView, Tumblr, Twitch, Twitter, Vimeo, Whatsapp, X, and Youtube.  
+Bluesky, Buy Me a Coffee, Discord, Facebook, Flickr, Github, Gitlab, Instagram, KNIME, Ko-fi, Linkedin, "mailto:", Mastodon (mastodon.social instance only, others may be added if requested), Medium, Patreon, Pinterest, Reddit, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, Threads, TikTok, TradingView, Tumblr, Twitch, Twitter, Vimeo, Whatsapp, X, Youtube, and Zenodo.
   
 ## Tips
   
@@ -136,4 +136,6 @@ Even though I have not tested it much, [`add_vertical_space`](https://arnaudmiri
 
 For this project, I do have to acknowledge [Font Awesome](https://fontawesome.com/) for their huge selection of icons and the ease with which they implemented. The Awesome in their name is well deserved! 
   
-Thanks to Raúl Pérula Martínez (@raulperula) for suggesting the addition of Medium. Thanks to Pedro Damasceno (@pcDamasceno) for suggesting the addition of Buy Me a Coffee, Flickr, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, TradingView, Vimeo, and Whatsapp.
+Thanks to Raúl Pérula Martínez (@raulperula) for suggesting the addition of Medium. Thanks to Pedro Damasceno (@pcDamasceno) for suggesting the addition of Buy Me a Coffee, Flickr, Skype, Slack, Snapchat, Spotify, Stack Overflow, Telegram, TradingView, Vimeo, and Whatsapp. Hal's (@halmgillman) fork inspired the addition of "mailto:" and Mastodon. Thanks to Yojana Gadiya (@YojanaGadiya) for suggesting the addition of KNIME and Zenodo.
+
+
